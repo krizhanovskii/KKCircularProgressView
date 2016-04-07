@@ -34,7 +34,7 @@ public class KKCircularProgressView: UIView {
         willSet(value) {
             let valueConverted = max(0,min(value,100))
             self.circleProgres.angle = self.angleFromPercents(valueConverted)
-            self.percentLbl.text = "\(valueConverted) %"
+            self.percentLbl.text = "\(valueConverted)%"
             
         }
     }
@@ -60,7 +60,6 @@ public class KKCircularProgressView: UIView {
      */
     public var trackColor : UIColor = KDCircularProgress().trackColor {
         willSet(color) {
-            print("set color")
             circleProgres.setColors(color)
         }
     }
@@ -153,6 +152,19 @@ public class KKCircularProgressView: UIView {
         }
     }
     
+    override public var frame: CGRect {
+        willSet(frame) {
+            var _frame = frame
+            _frame.size.width = min(frame.width,frame.height)
+            _frame.size.height = min(frame.width,frame.height)
+            super.frame = _frame
+            self.configure()
+
+        }
+    }
+    
+    
+    
     
     
     public override init(frame:CGRect) {
@@ -161,31 +173,7 @@ public class KKCircularProgressView: UIView {
         _frame.size.height = min(frame.width,frame.height)
         super.init(frame: _frame)
         
-        self.circleProgres.frame = bounds
-        self.circleProgres.trackColor = self.trackColor
-        self.circleProgres.trackThickness = self.trackThinkest
-        self.circleProgres.angle = self.angleFromPercents(self.startPercent)
-        self.circleProgres.startAngle = -90
-        self.circleProgres.glowMode = self.glowMode
-        self.circleProgres.glowAmount = self.glowAmount
-        self.circleProgres.progressColors = self.progressColors
-        self.circleProgres.progressThickness = self.progressThickness
-        self.circleProgres.progressInsideFillColor = self.progressInsideFillColor
-        self.circleProgres.gradientRotateSpeed = self.gradientRotateSpeed
-        self.circleProgres.roundedCorners = self.roundedCorners
-        self.circleProgres.clockwise = self.clockwise
-        
-        
-        let minVal = min(bounds.width, bounds.height)
-        self.percentLbl.frame = CGRectMake(margins, margins, minVal - margins*2, minVal - margins*2)
-        
-        percentLbl.text = "\(self.startPercent) %"
-        percentLbl.textAlignment = .Center
-        percentLbl.textColor = labelColor
-        percentLbl.font = UIFont.systemFontOfSize(percentLbl.frame.width/3.3)
-        
-        self.addSubview(self.circleProgres)
-        self.circleProgres.addSubview(self.percentLbl)
+        self.configure()
         
     }
     
@@ -205,7 +193,7 @@ public class KKCircularProgressView: UIView {
             counter += 1
             
         }
-        self.percentLbl.text = "\(counter) %"
+        self.percentLbl.text = "\(counter)%"
         if counter == percentToDone {
             timer.invalidate()
             counter == 0
@@ -266,5 +254,34 @@ public class KKCircularProgressView: UIView {
     
     private func angleFromPercents(percent:Int) -> Double {
         return 360*Double(percent)/100
+    }
+    
+    private func configure() {
+
+        self.circleProgres.frame = bounds
+        self.circleProgres.trackColor = self.trackColor
+        self.circleProgres.trackThickness = self.trackThinkest
+        self.circleProgres.angle = self.angleFromPercents(self.startPercent)
+        self.circleProgres.startAngle = -90
+        self.circleProgres.glowMode = self.glowMode
+        self.circleProgres.glowAmount = self.glowAmount
+        self.circleProgres.progressColors = self.progressColors
+        self.circleProgres.progressThickness = self.progressThickness
+        self.circleProgres.progressInsideFillColor = self.progressInsideFillColor
+        self.circleProgres.gradientRotateSpeed = self.gradientRotateSpeed
+        self.circleProgres.roundedCorners = self.roundedCorners
+        self.circleProgres.clockwise = self.clockwise
+        
+        
+        let minVal = min(bounds.width, bounds.height)
+        self.percentLbl.frame = CGRectMake(margins, margins, minVal - margins*2, minVal - margins*2)
+        percentLbl.text = "\(self.startPercent)%"
+        percentLbl.textAlignment = .Center
+        percentLbl.textColor = labelColor
+        percentLbl.font = UIFont.systemFontOfSize(percentLbl.frame.width/3.3)
+        
+        self.addSubview(self.circleProgres)
+        self.circleProgres.addSubview(self.percentLbl)
+
     }
 }

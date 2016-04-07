@@ -1,25 +1,28 @@
 {
   "name": "KKCircularProgressView",
-  "version": "0.1.0",
-  "summary": "A short description of KKCircularProgressView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/KKCircularProgressView",
+  "version": "0.1.6",
+  "summary": "KKCircularProgressView is a simple libriary for make animated circle view",
+  "homepage": "https://github.com/krizhanovskii/KKCircularProgressView",
   "license": "MIT",
   "authors": {
-    "k_krizhanovskii": "kk@starladder.tv"
+    "k.krizhanovskii": "k.krizhanovskii@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/KKCircularProgressView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/krizhanovskii/KKCircularProgressView.git",
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "KKCircularProgressView": [
-      "Pod/Assets/*.png"
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "KDCircularProgress": [
+
     ]
   }
 }

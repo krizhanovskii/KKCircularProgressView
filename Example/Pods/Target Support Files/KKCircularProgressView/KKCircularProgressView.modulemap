@@ -1,0 +1,6 @@
+framework module KKCircularProgressView {
+  umbrella header "KKCircularProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -82,3 +82,12 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-KKCircularProgressView_Example/KDCircularProgress.framework"
+  install_framework "Pods-KKCircularProgressView_Example/KKCircularProgressView.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-KKCircularProgressView_Example/KDCircularProgress.framework"
+  install_framework "Pods-KKCircularProgressView_Example/KKCircularProgressView.framework"
+fi

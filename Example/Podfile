@@ -1,9 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
+
 pod 'KDCircularProgress'
 
 target 'KKCircularProgressView_Example', :exclusive => true do
   pod 'KKCircularProgressView', :path => '../'
+  pod 'KDCircularProgress'
+
 end
 
 target 'KKCircularProgressView_Tests', :exclusive => true do
@@ -11,4 +14,6 @@ target 'KKCircularProgressView_Tests', :exclusive => true do
 
   pod 'Quick', '~> 0.8'
   pod 'Nimble', '~> 3.0'
+  pod 'KDCircularProgress'
+
 end
