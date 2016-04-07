@@ -27,11 +27,10 @@ public class KKCircularProgressView: UIView {
     private var circleProgres = KDCircularProgress()
     private var percentLbl = UILabel()
     private var margins = CGFloat(10)
-    private var startPercent = 0
     
     
     /* Start percent from */
-    public var startPercetn : Int = 0{
+    public var startPercent : Int = 0{
         willSet(value) {
             let valueConverted = max(0,min(value,100))
             self.circleProgres.angle = self.angleFromPercents(valueConverted)
@@ -165,7 +164,7 @@ public class KKCircularProgressView: UIView {
         self.circleProgres.frame = bounds
         self.circleProgres.trackColor = self.trackColor
         self.circleProgres.trackThickness = self.trackThinkest
-        self.circleProgres.angle = 360*Double(self.startPercetn)/100
+        self.circleProgres.angle = self.angleFromPercents(self.startPercent)
         self.circleProgres.startAngle = -90
         self.circleProgres.glowMode = self.glowMode
         self.circleProgres.glowAmount = self.glowAmount
@@ -180,7 +179,7 @@ public class KKCircularProgressView: UIView {
         let minVal = min(bounds.width, bounds.height)
         self.percentLbl.frame = CGRectMake(margins, margins, minVal - margins*2, minVal - margins*2)
         
-        percentLbl.text = "\(self.startPercetn) %"
+        percentLbl.text = "\(self.startPercent) %"
         percentLbl.textAlignment = .Center
         percentLbl.textColor = labelColor
         percentLbl.font = UIFont.systemFontOfSize(percentLbl.frame.width/3.3)
