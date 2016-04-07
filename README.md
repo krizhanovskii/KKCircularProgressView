@@ -7,7 +7,7 @@
 ## Description
 KKCircularProgressView in upgraded version of [KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) with UILabel that show current progress.
 
-[Example!]:http://g.recordit.co/TBo1hLtV4y.gif 
+![Example](http://g.recordit.co/TBo1hLtV4y.gif )
 
 
 ## Usage

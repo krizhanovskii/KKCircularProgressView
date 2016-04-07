@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE2DD1BAF85572AE5D5E6174AE9E18F55E1CA1AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE2DD1BAF85572AE5D5E6174AE9E18F55E1CA1AF" : 0,
+    "78B7FCA0AEB79F654D6A2D91B7EAF125F15FD2DF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0AA754DD-AD13-46E2-BC30-17B1541A51F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE2DD1BAF85572AE5D5E6174AE9E18F55E1CA1AF" : "KKCircularProgressView\/",
+    "78B7FCA0AEB79F654D6A2D91B7EAF125F15FD2DF" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KKCircularProgressView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/KKCircularProgressView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:krizhanovskii\/alarmclock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78B7FCA0AEB79F654D6A2D91B7EAF125F15FD2DF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/krizhanovskii\/KKCircularProgressView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE2DD1BAF85572AE5D5E6174AE9E18F55E1CA1AF"
+    }
+  ]
+}
