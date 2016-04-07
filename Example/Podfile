@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'KKCircularProgressView_Example', :exclusive => true do
+  pod 'KKCircularProgressView', :path => '../'
+end
+
+target 'KKCircularProgressView_Tests', :exclusive => true do
+  pod 'KKCircularProgressView', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+end
