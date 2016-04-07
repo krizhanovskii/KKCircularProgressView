@@ -10,7 +10,7 @@ import UIKit
 import KDCircularProgress
 
 
-class KKCircularProgressView: UIView {
+public class KKCircularProgressView: UIView {
 
     
     /* variables for animating */
@@ -24,88 +24,88 @@ class KKCircularProgressView: UIView {
     
     
     
-    var labelColor : UIColor = .whiteColor() {
+    public var labelColor : UIColor = .whiteColor() {
         willSet(color) {
             percentLbl.textColor = color
         }
     }
     
-    var trackThinkest : CGFloat  = KDCircularProgress().trackThickness {
+    public var trackThinkest : CGFloat  = KDCircularProgress().trackThickness {
         willSet(value) {
             circleProgres.trackThickness = value
         }
     }
     
-    var trackColor : UIColor = KDCircularProgress().trackColor {
+    public var trackColor : UIColor = KDCircularProgress().trackColor {
         willSet(color) {
             print("set color")
             circleProgres.setColors(color)
         }
     }
     
-    var progressThickness : CGFloat  = KDCircularProgress().progressThickness {
+    public var progressThickness : CGFloat  = KDCircularProgress().progressThickness {
         willSet(value) {
             circleProgres.progressThickness = value
         }
     }
     
-    var progressColors : [UIColor] = KDCircularProgress().progressColors {
+    public var progressColors : [UIColor] = KDCircularProgress().progressColors {
         willSet(colors) {
             circleProgres.progressColors = colors
         }
     }
     
     
-    var angle : Double = KDCircularProgress().angle {
+    public var angle : Double = KDCircularProgress().angle {
         willSet(value) {
             circleProgres.angle = value
         }
     }
     
     
-    var startAngle : Double = -90 {
+    public var startAngle : Double = -90 {
         willSet(value) {
             circleProgres.startAngle = value
         }
     }
     
     
-    var clockwise : Bool = KDCircularProgress().clockwise {
+    public var clockwise : Bool = KDCircularProgress().clockwise {
         willSet(value) {
             circleProgres.clockwise = value
         }
     }
     
     
-    var roundedCorners : Bool = KDCircularProgress().roundedCorners {
+    public var roundedCorners : Bool = KDCircularProgress().roundedCorners {
         willSet(value) {
             circleProgres.roundedCorners = value
         }
     }
     
     
-    var gradientRotateSpeed : CGFloat  = KDCircularProgress().gradientRotateSpeed {
+    public var gradientRotateSpeed : CGFloat  = KDCircularProgress().gradientRotateSpeed {
         willSet(value) {
             circleProgres.gradientRotateSpeed = value
         }
     }
     
     
-    var glowAmount : CGFloat  = KDCircularProgress().gradientRotateSpeed {
+    public var glowAmount : CGFloat  = KDCircularProgress().gradientRotateSpeed {
         willSet(value) {
             circleProgres.glowAmount = value
         }
     }
     
     
-    var glowMode : KDCircularProgressGlowMode  = KDCircularProgress().glowMode {
+    public var glowMode : KDCircularProgressGlowMode  = KDCircularProgress().glowMode {
         willSet(value) {
             circleProgres.glowMode = value
         }
     }
     
     
-    var progressInsideFillColor : UIColor = .clearColor() {
+    public var progressInsideFillColor : UIColor = .clearColor() {
         willSet(color) {
             circleProgres.progressInsideFillColor = color
         }
@@ -113,7 +113,7 @@ class KKCircularProgressView: UIView {
     
     
 
-    override init(frame:CGRect) {
+    public override init(frame:CGRect) {
         var _frame = frame
         _frame.size.width = min(frame.width,frame.height)
         _frame.size.height = min(frame.width,frame.height)
@@ -146,7 +146,7 @@ class KKCircularProgressView: UIView {
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -164,7 +164,7 @@ class KKCircularProgressView: UIView {
     }
     
     
-    func startAnimatingWithDuration(duration : Double,toPercent percent:Int) {
+    public func startAnimatingWithDuration(duration : Double,toPercent percent:Int) {
         self.timer.invalidate()
         self.percentToDone = percent
         let timerTick = Double(duration/Double(percent))
