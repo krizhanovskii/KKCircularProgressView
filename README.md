@@ -1,6 +1,6 @@
 # KKCircularProgressView
 
-[![CI Status](http://img.shields.io/travis/k_krizhanovskii/KKCircularProgressView.svg?style=flat)](https://travis-ci.org/k_krizhanovskii/KKCircularProgressView)
+[![CI Status](http://img.shields.io/travis/k_krizhanovskii/KKCircularProgressView.svg?style=flat)](https://travis-ci.org/krizhanovskii/KKCircularProgressView)
 [![Version](https://img.shields.io/cocoapods/v/KKCircularProgressView.svg?style=flat)](http://cocoapods.org/pods/KKCircularProgressView)
 [![License](https://img.shields.io/cocoapods/l/KKCircularProgressView.svg?style=flat)](http://cocoapods.org/pods/KKCircularProgressView)
 [![Platform](https://img.shields.io/cocoapods/p/KKCircularProgressView.svg?style=flat)](http://cocoapods.org/pods/KKCircularProgressView)
@@ -8,7 +8,7 @@
 ## Description
 KKCircularProgressView in upgraded version of [KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) with UILabel that show current progress.
 
-[Example]:http://g.recordit.co/TBo1hLtV4y.gif 
+![Example](http://g.recordit.co/TBo1hLtV4y.gif)
 
 
 ## Usage
@@ -45,7 +45,8 @@ circleView.startAnimatingWithDuration(5, toPercent: 75)
 ## Requirements
 * ios: 8.3. 
 * xcode: 6
-* 
+
+
 ## Installation
 
 KKCircularProgressView is available through [CocoaPods](http://cocoapods.org). To install
