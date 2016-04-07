@@ -1,0 +1,25 @@
+{
+  "name": "KKCircularProgressView",
+  "version": "0.1.0",
+  "summary": "A short description of KKCircularProgressView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KKCircularProgressView",
+  "license": "MIT",
+  "authors": {
+    "k_krizhanovskii": "kk@starladder.tv"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KKCircularProgressView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "KKCircularProgressView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

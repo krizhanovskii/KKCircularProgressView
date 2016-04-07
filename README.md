@@ -22,7 +22,7 @@ pod "KKCircularProgressView"
 
 ## Author
 
-k_krizhanovskii, kk@starladder.tv
+k.krizhanovskii, k.krizhanovskii@gmail.com
 
 ## License
 
