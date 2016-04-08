@@ -60,7 +60,7 @@ public class KKCircularProgressView: UIView {
      */
     public var trackColor : UIColor = KDCircularProgress().trackColor {
         willSet(color) {
-            circleProgress.setColors(color)
+            circleProgress.trackColor = color
         }
     }
     

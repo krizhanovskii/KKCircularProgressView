@@ -63,7 +63,7 @@
 		<key>0427D6F4938D4D9229994A2CE9B8E00F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>96672F7F48B5B770DEFF8DE3D4E6A9EA</string>
+			<string>DB676B7567A9ED4E2648C64B2343507C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -152,80 +152,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>071476114EB65AD215428E9C6A0CA0C5</key>
+		<key>0747277494A7B873A9B206576A58DB19</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>07AE17E8B468F1345AAC9A8FE24F3C8C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AA6397620E89ECE408A6F4CB98D6655C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods/Pods.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>KKCircularProgressView.framework</string>
+			<key>path</key>
+			<string>KKCircularProgressView.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>07DBEE53FB896982AC53DB5B9281D385</key>
 		<dict>
@@ -233,33 +173,6 @@
 			<string>4FE2447F12D69164C8E3FD7C8C3DD05B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>0A6EAC78334B35B555AB038AE3C2CF3B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1A6259665187A7BC52112D4C64FA1D60</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8A364C15A95B9B1ED772244F7280BD71</string>
-				<string>3395664EC495DAFE79A4AE9879F88567</string>
-				<string>89BDCACC84287831952CAA9346853CF6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>F420622535AE63D0709CF41A8B2F2880</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>9213F9098B85329AB19CD0B2F41E2D58</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>0BBCBA8D22511583F4F3DE387A2D9610</key>
 		<dict>
@@ -290,6 +203,21 @@
 			<string>Sources/Quick/NSString+QCKSelectorName.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0D220C72925455D477506ACABB8B3DD0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Nimble.framework</string>
+			<key>path</key>
+			<string>Nimble.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>0D84EC813F90F13D21B3DC4BD4A4EF15</key>
 		<dict>
@@ -367,13 +295,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0DCAA605EE92605F9795DFA893A3FFEE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20194E521E53E1F6A1BDA1042632F695</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>0F834A031F0E85566CFC8020CDEA8F3F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -386,30 +307,6 @@
 			<string>ExampleHooks.swift</string>
 			<key>path</key>
 			<string>Sources/Quick/Hooks/ExampleHooks.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>104E923DBA59A1599FD4BB095E65206C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1087E7A160C2F73342572B6EDDE78C69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -530,21 +427,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1468E4D78F19E0989E2AF1FA852C0FFC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>97B32A7A2EDA2CC886D83175330EA11F</string>
-				<string>E86DFD64440B623FCDE31FE665F151BB</string>
-				<string>227FC241E879D0B9BA940C70A75C1D80</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1700210AD7F1D18A9BBADCDD034C895A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -649,30 +531,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1A6259665187A7BC52112D4C64FA1D60</key>
+		<key>1BE6BA8816735B10BBD14ECCABCA7B90</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>E27186C68C9976AF80B4881884B8D5D0</string>
-				<string>07AE17E8B468F1345AAC9A8FE24F3C8C</string>
+				<string>6DE7C09E04701E1B2064FE3D8957EE32</string>
+				<string>0747277494A7B873A9B206576A58DB19</string>
+				<string>0D220C72925455D477506ACABB8B3DD0</string>
+				<string>669141D0F1D090558DF013290AE1E4BC</string>
+				<string>231F69DD4F8C97DB2D7582A2A9651387</string>
+				<string>28C701E559A36AAD4E9827F0C97DA79C</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1C105796234EC1B0096C50E46A1B829E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests-frameworks.sh</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -819,29 +692,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>227FC241E879D0B9BA940C70A75C1D80</key>
+		<key>231F69DD4F8C97DB2D7582A2A9651387</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>4C868C9E2D315D37964463974EB018D4</string>
-				<string>27F9059DF5D4D21BDFEC9972ADD2985F</string>
-				<string>B5EDCED7FC1E0814F8E05D5DAC353320</string>
-				<string>EC8C6EFA71E3D1990DBCF92B1CC8CBA4</string>
-				<string>AD1012640893A73BB6509C9A1B1F0BED</string>
-				<string>1C105796234EC1B0096C50E46A1B829E</string>
-				<string>A42F56F89CDB3ADE37212871965FB6EF</string>
-				<string>F4385C9B6D657394C81A03636F94F989</string>
-				<string>24F95A9B1EFD75EFA70F47B33838F94D</string>
-				<string>96672F7F48B5B770DEFF8DE3D4E6A9EA</string>
-			</array>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Pods-KKCircularProgressView_Tests</string>
+			<string>Pods_KKCircularProgressView_Tests.framework</string>
 			<key>path</key>
-			<string>Target Support Files/Pods-KKCircularProgressView_Tests</string>
+			<string>Pods_KKCircularProgressView_Tests.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>23626BC4DDA1A2E90A155728F57802FF</key>
 		<dict>
@@ -856,19 +720,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>24F95A9B1EFD75EFA70F47B33838F94D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2577A1F0E589C27A9F15EC5D46BE5EAA</key>
 		<dict>
@@ -906,17 +757,6 @@
 			<string>65C6BA0CEAE9F2C33E4E393100A9F0D3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>27F9059DF5D4D21BDFEC9972ADD2985F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2823BDA58F2F74DEAB39C2F345AA07A1</key>
 		<dict>
@@ -977,18 +817,20 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>28D35E309FC085084F2E7473863102E8</key>
+		<key>28C701E559A36AAD4E9827F0C97DA79C</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Quick.framework</string>
 			<key>path</key>
-			<string>Pods-umbrella.h</string>
+			<string>Quick.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>28FB8AAC8E91067F7214DC002248D8C1</key>
 		<dict>
@@ -1265,6 +1107,19 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>2DBBF4FB968AE62275F112D17A4886FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Example-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3098E35E5353BA9D2B0844D89D120B12</key>
 		<dict>
 			<key>fileRef</key>
@@ -1335,19 +1190,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3395664EC495DAFE79A4AE9879F88567</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0DCAA605EE92605F9795DFA893A3FFEE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>367D8CE5A8590B8DF217520C63002270</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1363,16 +1205,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>37CDA57B65B2CB584C35631E6A5F0925</key>
+		<key>36800D1B76A8553E1A9D30C5EB946F54</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>text</string>
 			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example-dummy.m</string>
+			<string>Pods-KKCircularProgressView_Example-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37EEEE66BCEE63360C1241E70CB9D333</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Tests-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1393,19 +1248,6 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Nimble.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39A673A5259BAEFF7761E1929576C6D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1439,6 +1281,19 @@
 			<string>Support Files</string>
 			<key>path</key>
 			<string>Example/Pods/Target Support Files/KKCircularProgressView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3CC95766C8E16EF7B18B23D84C2D06C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Tests.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1628,6 +1483,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>456FB362CD37BB67E62BF0781144A3EE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>468DC184F60C2951EEC0DC23EB28EBD0</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1731,7 +1599,7 @@
 		<key>4BBD74C1398169C54676591758FF6444</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>96ECA0681DB775509B26F5FBE0F97D68</string>
+			<string>E221A984ABC9DBFC23B23954E5122EEC</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1792,16 +1660,27 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>4C868C9E2D315D37964463974EB018D4</key>
+		<key>4BD35E497E1C00E61FCE250E225FF02B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>EF49A6F3493D6337DE774F6149C17D3B</string>
+				<string>BE22CAF3885E7D4FF1C215AE6081EA0C</string>
+				<string>36800D1B76A8553E1A9D30C5EB946F54</string>
+				<string>60D449149C713C6790C2346A9F99A56A</string>
+				<string>AE5BA41C0EBE4656082AF2D88ABDA02A</string>
+				<string>E23641A90E1303D677FBC4578A26D2DB</string>
+				<string>A9FC2603865B123F0406A4C5F5C6ECD1</string>
+				<string>2DBBF4FB968AE62275F112D17A4886FE</string>
+				<string>E221A984ABC9DBFC23B23954E5122EEC</string>
+				<string>97BB1FB71C6923C2BD9F1F1396CB5AEE</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-KKCircularProgressView_Example</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Target Support Files/Pods-KKCircularProgressView_Example</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1821,7 +1700,7 @@
 		<key>4D0DDCDCADAB55445B9B2AF0DE3382CC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F4385C9B6D657394C81A03636F94F989</string>
+			<string>B22050DBA3B5D8BE05C95559EE4F4EB3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1929,6 +1808,19 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>51698F008877ECE9588ACC08246DDE79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>52341CE4D9F103CE7888120F620B4D5A</key>
 		<dict>
@@ -2060,7 +1952,7 @@
 		<key>556FDDB4E25B93B9BAEF4EE05B0DE06E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8C0921B0B7E62C365286AE7176800DEB</string>
+			<string>2DBBF4FB968AE62275F112D17A4886FE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2165,7 +2057,7 @@
 		<key>5BE7D43387988E966F3FA601EFA5A7AD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>37CDA57B65B2CB584C35631E6A5F0925</string>
+			<string>AE5BA41C0EBE4656082AF2D88ABDA02A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2181,19 +2073,6 @@
 			<string>BeLogical.swift</string>
 			<key>path</key>
 			<string>Sources/Nimble/Matchers/BeLogical.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CBDC65CDBB5BEF069D22247001E25C7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2244,6 +2123,19 @@
 			<string>DSL.h</string>
 			<key>path</key>
 			<string>Sources/Nimble/objc/DSL.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60D449149C713C6790C2346A9F99A56A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Example-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2326,7 +2218,7 @@
 			<key>productName</key>
 			<string>Quick</string>
 			<key>productReference</key>
-			<string>762BB8F1A414D5249EE3C2D9F6278B37</string>
+			<string>28C701E559A36AAD4E9827F0C97DA79C</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
@@ -2359,6 +2251,21 @@
 			<string>Sources/Quick/DSL/QCKDSL.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>669141D0F1D090558DF013290AE1E4BC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_KKCircularProgressView_Example.framework</string>
+			<key>path</key>
+			<string>Pods_KKCircularProgressView_Example.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>66C135D6358FD84593FFFC92DC03950C</key>
 		<dict>
@@ -2396,14 +2303,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>6ED0409031540D9B2AD7B061B608B0C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5674E0D91680D212599D89760D69C889</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6F26ACAEA441FE040963F0099724C59A</key>
+		<key>6B8023577A90C4FD82C92654A7D4B4A4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2412,9 +2312,31 @@
 			<key>lastKnownFileType</key>
 			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-resources.sh</string>
+			<string>Pods-KKCircularProgressView_Tests-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6DE7C09E04701E1B2064FE3D8957EE32</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>KDCircularProgress.framework</string>
+			<key>path</key>
+			<string>KDCircularProgress.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6ED0409031540D9B2AD7B061B608B0C9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5674E0D91680D212599D89760D69C889</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>6FD5DE05D7E356A4CAD4955B3F1EEE6C</key>
 		<dict>
@@ -2473,19 +2395,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>70F65A606F6D64A5530438F410D116FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>719DB26DFF51EE265042FB291B1D4D07</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2511,24 +2420,9 @@
 		<key>7434C8F012134FD87EE2ABA8F774EE66</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AD1012640893A73BB6509C9A1B1F0BED</string>
+			<string>51698F008877ECE9588ACC08246DDE79</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>75310B53DE569B0CE0EAFFA4E73144CB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>KKCircularProgressView.framework</string>
-			<key>path</key>
-			<string>KKCircularProgressView.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>75364608969F89AE0B61177E6D171FD7</key>
 		<dict>
@@ -2552,21 +2446,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>762BB8F1A414D5249EE3C2D9F6278B37</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Quick.framework</string>
-			<key>path</key>
-			<string>Quick.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>76D915BDCEB3ACDFEFD4D6674135FFEA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2589,27 +2468,36 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>77350970CE1C4706A8E306AC424A9033</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>ED06A4C9C05D1BE25B19C87E839AC674</string>
+				<string>BA4DDAD19A8E661A692B6994807E19C9</string>
+				<string>456FB362CD37BB67E62BF0781144A3EE</string>
+				<string>D8DF7757147055722FF8E34930121528</string>
+				<string>51698F008877ECE9588ACC08246DDE79</string>
+				<string>37EEEE66BCEE63360C1241E70CB9D333</string>
+				<string>6B8023577A90C4FD82C92654A7D4B4A4</string>
+				<string>B22050DBA3B5D8BE05C95559EE4F4EB3</string>
+				<string>3CC95766C8E16EF7B18B23D84C2D06C6</string>
+				<string>DB676B7567A9ED4E2648C64B2343507C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-KKCircularProgressView_Tests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-KKCircularProgressView_Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>775646739B95E828ECE349F6A39534F4</key>
 		<dict>
 			<key>fileRef</key>
 			<string>DFFD35E4736097672B2E3BA653468CFE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>7783619905C9C66F758F478FDDDCCB64</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Nimble.framework</string>
-			<key>path</key>
-			<string>Nimble.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>79F29A40AD378B4DC2D0CDE7C95A22E6</key>
 		<dict>
@@ -2706,8 +2594,8 @@
 				<string>702C2AD1917D0ED1F01AF2C70088F186</string>
 				<string>5A10CE8E8AE140A03A621C47A61BDAF0</string>
 				<string>8CF478F45BF597EA7E8A3DFED07A247C</string>
-				<string>9D20BB075EBA8E3BA4953B04CC80ED2C</string>
-				<string>1468E4D78F19E0989E2AF1FA852C0FFC</string>
+				<string>1BE6BA8816735B10BBD14ECCABCA7B90</string>
+				<string>F1260B66E62B96BF37C741D366D0DEBC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -2742,21 +2630,6 @@
 			<string>F277A1E400E66FDD9C6C6198F9CF907F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>7EE06CC7075D7636450F9D44E8B3B10A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_KKCircularProgressView_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_KKCircularProgressView_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>7F1AED3FC74FEF334A360F857E8938DD</key>
 		<dict>
@@ -2838,21 +2711,6 @@
 			<string>FF61C7C740C1B196A3B33F37B77DBC68</string>
 			<key>targetProxy</key>
 			<string>1D49B7E9462E86324FEC113822820C0E</string>
-		</dict>
-		<key>83C8E1A356C9078A649D71795C621AD5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_KKCircularProgressView_Example.framework</string>
-			<key>path</key>
-			<string>Pods_KKCircularProgressView_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>83D86C0FD26AB605A3B110F5E92D0F0D</key>
 		<dict>
@@ -2939,7 +2797,7 @@
 		<key>89133A71C7BFF6F19FEBA049883DB63B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C4B7EF7D9EB5743FD37C93B01D3DCB60</string>
+			<string>97BB1FB71C6923C2BD9F1F1396CB5AEE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -3011,32 +2869,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>89BDCACC84287831952CAA9346853CF6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>92D815D628774B920C226D812970E861</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8A364C15A95B9B1ED772244F7280BD71</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B5A4F688937F31366BDE0E95EAE94EEF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>8ABC123900ADDC733D2ED4C866A7D5B1</key>
 		<dict>
 			<key>isa</key>
@@ -3047,30 +2879,6 @@
 			<string>9558B32FB980ED0E42BF1BD3AEC626CE</string>
 			<key>targetProxy</key>
 			<string>39E56F49F5CB55B4685B4B430EAF5132</string>
-		</dict>
-		<key>8B2A55114942CBD6215942AC4637FA1B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C0921B0B7E62C365286AE7176800DEB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8C33F1F35D9716E0D21F489D53EF911D</key>
 		<dict>
@@ -3138,34 +2946,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9213F9098B85329AB19CD0B2F41E2D58</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods.framework</string>
-			<key>path</key>
-			<string>Pods.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>923171931432000E7FEA20044545E498</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>92C96CB419B1CA580CB3311B2CF5084F</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -3189,23 +2969,9 @@
 			<key>productName</key>
 			<string>KKCircularProgressView</string>
 			<key>productReference</key>
-			<string>75310B53DE569B0CE0EAFFA4E73144CB</string>
+			<string>0747277494A7B873A9B206576A58DB19</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>92D815D628774B920C226D812970E861</key>
-		<dict>
-			<key>fileRef</key>
-			<string>28D35E309FC085084F2E7473863102E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>9558B32FB980ED0E42BF1BD3AEC626CE</key>
 		<dict>
@@ -3228,35 +2994,9 @@
 			<key>productName</key>
 			<string>KDCircularProgress</string>
 			<key>productReference</key>
-			<string>CE492F2351983D8ED16805752D09B36E</string>
+			<string>6DE7C09E04701E1B2064FE3D8957EE32</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>96672F7F48B5B770DEFF8DE3D4E6A9EA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96ECA0681DB775509B26F5FBE0F97D68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>96ED0CCA721955637A88FE0C9737EC56</key>
 		<dict>
@@ -3265,27 +3005,16 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>97B32A7A2EDA2CC886D83175330EA11F</key>
+		<key>97BB1FB71C6923C2BD9F1F1396CB5AEE</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>C24561F7EDD7BA459E3C829DFEFC3A63</string>
-				<string>8B2A55114942CBD6215942AC4637FA1B</string>
-				<string>CC870DF9ABD875512A9A5AD1373FEB67</string>
-				<string>5CBDC65CDBB5BEF069D22247001E25C7</string>
-				<string>1087E7A160C2F73342572B6EDDE78C69</string>
-				<string>E9600A861A53B173951E83FDD8DCEC4F</string>
-				<string>6F26ACAEA441FE040963F0099724C59A</string>
-				<string>28D35E309FC085084F2E7473863102E8</string>
-				<string>071476114EB65AD215428E9C6A0CA0C5</string>
-				<string>AA6397620E89ECE408A6F4CB98D6655C</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Target Support Files/Pods</string>
+			<string>Pods-KKCircularProgressView_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3310,25 +3039,6 @@
 			<string>5C944CBCFE3A26FCF40DC3D2893632E7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D20BB075EBA8E3BA4953B04CC80ED2C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CE492F2351983D8ED16805752D09B36E</string>
-				<string>75310B53DE569B0CE0EAFFA4E73144CB</string>
-				<string>7783619905C9C66F758F478FDDDCCB64</string>
-				<string>9213F9098B85329AB19CD0B2F41E2D58</string>
-				<string>83C8E1A356C9078A649D71795C621AD5</string>
-				<string>7EE06CC7075D7636450F9D44E8B3B10A</string>
-				<string>762BB8F1A414D5249EE3C2D9F6278B37</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9D781266381A580A127D6985A1E49876</key>
 		<dict>
@@ -3433,19 +3143,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A42F56F89CDB3ADE37212871965FB6EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>A48168DAAE36825D46DA7D10C692584A</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3465,19 +3162,6 @@
 			<string>BA5F29B7DE312EEAEB643FE55516905E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>A6DECE33D8B0E777698EEF74EE3DED95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A7915B8C78F25616F6B9F046E9CAF87B</key>
 		<dict>
@@ -3552,16 +3236,16 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>AA6397620E89ECE408A6F4CB98D6655C</key>
+		<key>A9FC2603865B123F0406A4C5F5C6ECD1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods.release.xcconfig</string>
+			<string>Pods-KKCircularProgressView_Example-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3602,7 +3286,7 @@
 			<key>productName</key>
 			<string>Pods-KKCircularProgressView_Tests</string>
 			<key>productReference</key>
-			<string>7EE06CC7075D7636450F9D44E8B3B10A</string>
+			<string>231F69DD4F8C97DB2D7582A2A9651387</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
@@ -3623,7 +3307,7 @@
 		<key>AC94265147904B3F85D2431E4D63CE4F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>24F95A9B1EFD75EFA70F47B33838F94D</string>
+			<string>3CC95766C8E16EF7B18B23D84C2D06C6</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -3684,7 +3368,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>AD1012640893A73BB6509C9A1B1F0BED</key>
+		<key>AE5BA41C0EBE4656082AF2D88ABDA02A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3693,7 +3377,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests-dummy.m</string>
+			<string>Pods-KKCircularProgressView_Example-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3716,6 +3400,19 @@
 			<string>92C96CB419B1CA580CB3311B2CF5084F</string>
 			<key>remoteInfo</key>
 			<string>KKCircularProgressView</string>
+		</dict>
+		<key>B22050DBA3B5D8BE05C95559EE4F4EB3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Tests-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B279601CD20167FF15EA399D9010ACAE</key>
 		<dict>
@@ -3749,26 +3446,6 @@
 			<string>4A81B7D76F7DE4F95A1D418CB6759CA2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>B5A4F688937F31366BDE0E95EAE94EEF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1087E7A160C2F73342572B6EDDE78C69</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B5EDCED7FC1E0814F8E05D5DAC353320</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B94E7A10021160DA66F0122206059058</key>
 		<dict>
@@ -3820,6 +3497,17 @@
 					<string>Project</string>
 				</array>
 			</dict>
+		</dict>
+		<key>BA4DDAD19A8E661A692B6994807E19C9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Tests.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BA5F29B7DE312EEAEB643FE55516905E</key>
 		<dict>
@@ -3975,19 +3663,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>BD6153E48E36A30734E66C292929132E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9558B32FB980ED0E42BF1BD3AEC626CE</string>
-			<key>remoteInfo</key>
-			<string>KDCircularProgress</string>
-		</dict>
 		<key>BD7A21CF7BE1270C74764806179FEEAF</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -4016,6 +3691,17 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>BE22CAF3885E7D4FF1C215AE6081EA0C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Example.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C12E0930E021F1894B60BC6AFA8F2409</key>
 		<dict>
 			<key>fileRef</key>
@@ -4029,19 +3715,6 @@
 			<string>03EB0762CA4597814412166D6839F7BB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>C24561F7EDD7BA459E3C829DFEFC3A63</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C35B0F51383E140EF0844271E8D47534</key>
 		<dict>
@@ -4060,19 +3733,6 @@
 			<string>Support Files</string>
 			<key>path</key>
 			<string>../Target Support Files/Quick</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4B7EF7D9EB5743FD37C93B01D3DCB60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4111,19 +3771,6 @@
 			<string>367D8CE5A8590B8DF217520C63002270</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>CC870DF9ABD875512A9A5AD1373FEB67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CCDCB4B9088BA68D6CE2A00D9BAAE2DE</key>
 		<dict>
@@ -4192,21 +3839,6 @@
 			<string>Sources/Nimble/Matchers/AllPass.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE492F2351983D8ED16805752D09B36E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>KDCircularProgress.framework</string>
-			<key>path</key>
-			<string>KDCircularProgress.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>CE813981C6BB6C4DA5AFDC20B8917975</key>
 		<dict>
@@ -4280,7 +3912,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>9D20BB075EBA8E3BA4953B04CC80ED2C</string>
+			<string>1BE6BA8816735B10BBD14ECCABCA7B90</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -4292,7 +3924,6 @@
 				<string>9558B32FB980ED0E42BF1BD3AEC626CE</string>
 				<string>92C96CB419B1CA580CB3311B2CF5084F</string>
 				<string>FF61C7C740C1B196A3B33F37B77DBC68</string>
-				<string>0A6EAC78334B35B555AB038AE3C2CF3B</string>
 				<string>F35A5F269E299709248D7C264ACCC820</string>
 				<string>AB7EF81ED51CA1A430062C0BAA491B40</string>
 				<string>65970AEB15880B720D69EC3F883DF948</string>
@@ -4334,19 +3965,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D578A5A917D2F6267098112F688C61FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D63A6C474BA5BDF6CC09D9BB853687C2</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -4361,6 +3979,19 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>D8DF7757147055722FF8E34930121528</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D925A9183F2977867E4EC2E2DBFCDF3B</key>
 		<dict>
 			<key>fileRef</key>
@@ -4374,6 +4005,19 @@
 			<string>20194E521E53E1F6A1BDA1042632F695</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>DB676B7567A9ED4E2648C64B2343507C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DCA54337E8687685A293CC24A97F936C</key>
 		<dict>
@@ -4497,69 +4141,31 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E27186C68C9976AF80B4881884B8D5D0</key>
+		<key>E221A984ABC9DBFC23B23954E5122EEC</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>071476114EB65AD215428E9C6A0CA0C5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods/Pods.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E23641A90E1303D677FBC4578A26D2DB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-KKCircularProgressView_Example-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E34E670CABA4BB788D6334D5F15CFFED</key>
 		<dict>
@@ -4800,30 +4406,6 @@
 			<key>remoteInfo</key>
 			<string>KKCircularProgressView</string>
 		</dict>
-		<key>E86DFD64440B623FCDE31FE665F151BB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>39A673A5259BAEFF7761E1929576C6D5</string>
-				<string>104E923DBA59A1599FD4BB095E65206C</string>
-				<string>70F65A606F6D64A5530438F410D116FE</string>
-				<string>A6DECE33D8B0E777698EEF74EE3DED95</string>
-				<string>37CDA57B65B2CB584C35631E6A5F0925</string>
-				<string>D578A5A917D2F6267098112F688C61FC</string>
-				<string>923171931432000E7FEA20044545E498</string>
-				<string>8C0921B0B7E62C365286AE7176800DEB</string>
-				<string>96ECA0681DB775509B26F5FBE0F97D68</string>
-				<string>C4B7EF7D9EB5743FD37C93B01D3DCB60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-KKCircularProgressView_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-KKCircularProgressView_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E8BCEE33918A157D3A9A4667BDD02BA0</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4850,19 +4432,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>E9600A861A53B173951E83FDD8DCEC4F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E9A500611CF699885DE8A6BAB4E6B392</key>
 		<dict>
@@ -4927,7 +4496,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>EC8C6EFA71E3D1990DBCF92B1CC8CBA4</key>
+		<key>ED06A4C9C05D1BE25B19C87E839AC674</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4936,7 +4505,7 @@
 			<key>lastKnownFileType</key>
 			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests-acknowledgements.plist</string>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4952,6 +4521,19 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>EF49A6F3493D6337DE774F6149C17D3B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F027764D37279EDB2F9B6832F7931B63</key>
 		<dict>
@@ -4987,6 +4569,20 @@
 			<string>KDCircularProgress.swift</string>
 			<key>path</key>
 			<string>KDCircularProgress/KDCircularProgress.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F1260B66E62B96BF37C741D366D0DEBC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4BD35E497E1C00E61FCE250E225FF02B</string>
+				<string>77350970CE1C4706A8E306AC424A9033</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5042,7 +4638,7 @@
 			<key>productName</key>
 			<string>Pods-KKCircularProgressView_Example</string>
 			<key>productReference</key>
-			<string>83C8E1A356C9078A649D71795C621AD5</string>
+			<string>669141D0F1D090558DF013290AE1E4BC</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
@@ -5066,30 +4662,6 @@
 			<string>88F52EDFB93802D265307E7084133112</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>F420622535AE63D0709CF41A8B2F2880</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>KDCircularProgress</string>
-			<key>target</key>
-			<string>9558B32FB980ED0E42BF1BD3AEC626CE</string>
-			<key>targetProxy</key>
-			<string>BD6153E48E36A30734E66C292929132E</string>
-		</dict>
-		<key>F4385C9B6D657394C81A03636F94F989</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-KKCircularProgressView_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F85A9207A8601CE7F835CEC56790616F</key>
 		<dict>
@@ -5232,7 +4804,7 @@
 			<key>productName</key>
 			<string>Nimble</string>
 			<key>productReference</key>
-			<string>7783619905C9C66F758F478FDDDCCB64</string>
+			<string>0D220C72925455D477506ACABB8B3DD0</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>

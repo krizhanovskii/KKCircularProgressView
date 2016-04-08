@@ -1,6 +1,6 @@
 {
   "name": "KKCircularProgressView",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "summary": "KKCircularProgressView is a simple libriary for make animated circle view",
   "homepage": "https://github.com/krizhanovskii/KKCircularProgressView",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/krizhanovskii/KKCircularProgressView.git",
-    "tag": "0.1.6"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "8.0"

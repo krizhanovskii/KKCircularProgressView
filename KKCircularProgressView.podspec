@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "KKCircularProgressView"
-  s.version          = "0.1.8"
+  s.version          = "0.1.9"
   s.summary          = "KKCircularProgressView is a simple libriary for make animated circle view"
 
 # This description is used to generate tags and improve search results.
