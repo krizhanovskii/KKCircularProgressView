@@ -75,6 +75,14 @@ public class KKCircularProgressView: UIView {
     }
     
     
+    /* the progres color. Default .whiteColor() */
+    public var progressColor : UIColor = .whiteColor() {
+        willSet(color) {
+            circleProgress.progressColors = [color]
+
+        }
+    }
+    
     
     /*
      The colors used to generate the gradient of the progress. A gradient is used only if there is more than one color. A fill is used otherwise. The default is a white fill.
@@ -118,7 +126,7 @@ public class KKCircularProgressView: UIView {
      The intensity of the glow. Between 0 and 1.0. Default is 1.0.
      
      */
-    public var glowAmount : CGFloat  = KDCircularProgress().gradientRotateSpeed {
+    public var glowAmount : CGFloat  = KDCircularProgress().glowAmount {
         willSet(value) {
             circleProgress.glowAmount = value
         }
@@ -151,6 +159,7 @@ public class KKCircularProgressView: UIView {
             circleProgress.progressInsideFillColor = color
         }
     }
+    
     
     override public var frame: CGRect {
         willSet(frame) {

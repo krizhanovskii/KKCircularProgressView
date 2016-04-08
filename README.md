@@ -24,6 +24,7 @@ public var labelColor: UIColor
 public var trackThickness: CGFloat
 public var trackColor: UIColor
 public var progressThickness: CGFloat
+public var progressColor: UIColor
 public var progressColors: [UIColor]
 public var clockwise: Bool
 public var roundedCorners: Bool
