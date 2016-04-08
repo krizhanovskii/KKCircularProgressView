@@ -24,7 +24,7 @@ public class KKCircularProgressView: UIView {
     private var timer = NSTimer()
     private var percentToDone = 0
     
-    private var circleProgres = KDCircularProgress()
+    private var circleProgress = KDCircularProgress()
     private var percentLbl = UILabel()
     private var margins = CGFloat(10)
     
@@ -33,7 +33,7 @@ public class KKCircularProgressView: UIView {
     public var startPercent : Int = 0{
         willSet(value) {
             let valueConverted = max(0,min(value,100))
-            self.circleProgres.angle = self.angleFromPercents(valueConverted)
+            self.circleProgress.angle = self.angleFromPercents(valueConverted)
             self.percentLbl.text = "\(valueConverted)%"
             
         }
@@ -48,9 +48,9 @@ public class KKCircularProgressView: UIView {
     /*
      The thickness of the background track. Between 0 and 1. Default is 0.5
      */
-    public var trackThinkest : CGFloat  = KDCircularProgress().trackThickness {
+    public var trackThickness : CGFloat  = KDCircularProgress().trackThickness {
         willSet(value) {
-            circleProgres.trackThickness = value
+            circleProgress.trackThickness = value
         }
     }
     
@@ -60,7 +60,7 @@ public class KKCircularProgressView: UIView {
      */
     public var trackColor : UIColor = KDCircularProgress().trackColor {
         willSet(color) {
-            circleProgres.setColors(color)
+            circleProgress.setColors(color)
         }
     }
     
@@ -70,7 +70,7 @@ public class KKCircularProgressView: UIView {
      */
     public var progressThickness : CGFloat  = KDCircularProgress().progressThickness {
         willSet(value) {
-            circleProgres.progressThickness = value
+            circleProgress.progressThickness = value
         }
     }
     
@@ -81,7 +81,7 @@ public class KKCircularProgressView: UIView {
      */
     public var progressColors : [UIColor] = KDCircularProgress().progressColors {
         willSet(colors) {
-            circleProgres.progressColors = colors
+            circleProgress.progressColors = colors
         }
     }
     
@@ -92,7 +92,7 @@ public class KKCircularProgressView: UIView {
      */
     public var clockwise : Bool = KDCircularProgress().clockwise {
         willSet(value) {
-            circleProgres.clockwise = value
+            circleProgress.clockwise = value
         }
     }
     
@@ -101,7 +101,7 @@ public class KKCircularProgressView: UIView {
      */
     public var roundedCorners : Bool = KDCircularProgress().roundedCorners {
         willSet(value) {
-            circleProgres.roundedCorners = value
+            circleProgress.roundedCorners = value
         }
     }
     
@@ -110,7 +110,7 @@ public class KKCircularProgressView: UIView {
      */
     public var gradientRotateSpeed : CGFloat  = KDCircularProgress().gradientRotateSpeed {
         willSet(value) {
-            circleProgres.gradientRotateSpeed = value
+            circleProgress.gradientRotateSpeed = value
         }
     }
     
@@ -120,7 +120,7 @@ public class KKCircularProgressView: UIView {
      */
     public var glowAmount : CGFloat  = KDCircularProgress().gradientRotateSpeed {
         willSet(value) {
-            circleProgres.glowAmount = value
+            circleProgress.glowAmount = value
         }
     }
     
@@ -138,7 +138,7 @@ public class KKCircularProgressView: UIView {
     
     public var glowMode : KDCircularProgressGlowMode  = KDCircularProgress().glowMode {
         willSet(value) {
-            circleProgres.glowMode = value
+            circleProgress.glowMode = value
         }
     }
     
@@ -148,7 +148,7 @@ public class KKCircularProgressView: UIView {
      */
     public var progressInsideFillColor : UIColor = .clearColor() {
         willSet(color) {
-            circleProgres.progressInsideFillColor = color
+            circleProgress.progressInsideFillColor = color
         }
     }
     
@@ -212,7 +212,7 @@ public class KKCircularProgressView: UIView {
         
         let angleTo = self.angleFromPercents(toPercentConverted)
         
-        self.circleProgres.animateToAngle(angleTo, duration: duration) { (flag) in
+        self.circleProgress.animateToAngle(angleTo, duration: duration) { (flag) in
         }
         timer = NSTimer.scheduledTimerWithTimeInterval(timerTick, target: self, selector: #selector(self.timerAction), userInfo: nil, repeats: true)
         
@@ -225,11 +225,8 @@ public class KKCircularProgressView: UIView {
         let fromPercentConverted =  max(0,min(fromPercent,100))
         let toPercentConverted = max(0,min(toPercent,100))
         
-        
-        
         counter = fromPercentConverted
         self.percentToDone = toPercentConverted
-        
         
         if toPercent > fromPercent {
             isReverse = false
@@ -240,12 +237,10 @@ public class KKCircularProgressView: UIView {
         let timerTick = duration/abs(Double(toPercentConverted) - Double(fromPercentConverted))
         timer = NSTimer.scheduledTimerWithTimeInterval(timerTick, target: self, selector: #selector(self.timerAction), userInfo: nil, repeats: true)
         
-        
-        
         let angleFrom =  self.angleFromPercents(fromPercentConverted)
         let angleTo = self.angleFromPercents(toPercentConverted)
         
-        self.circleProgres.animateFromAngle(angleFrom, toAngle: angleTo, duration: duration) { (flag) in
+        self.circleProgress.animateFromAngle(angleFrom, toAngle: angleTo, duration: duration) { (flag) in
         }
         
         
@@ -258,20 +253,19 @@ public class KKCircularProgressView: UIView {
     
     private func configure() {
 
-        self.circleProgres.frame = bounds
-        self.circleProgres.trackColor = self.trackColor
-        self.circleProgres.trackThickness = self.trackThinkest
-        self.circleProgres.angle = self.angleFromPercents(self.startPercent)
-        self.circleProgres.startAngle = -90
-        self.circleProgres.glowMode = self.glowMode
-        self.circleProgres.glowAmount = self.glowAmount
-        self.circleProgres.progressColors = self.progressColors
-        self.circleProgres.progressThickness = self.progressThickness
-        self.circleProgres.progressInsideFillColor = self.progressInsideFillColor
-        self.circleProgres.gradientRotateSpeed = self.gradientRotateSpeed
-        self.circleProgres.roundedCorners = self.roundedCorners
-        self.circleProgres.clockwise = self.clockwise
-        
+        self.circleProgress.frame = bounds
+        self.circleProgress.trackColor = self.trackColor
+        self.circleProgress.trackThickness = self.trackThickness
+        self.circleProgress.angle = self.angleFromPercents(self.startPercent)
+        self.circleProgress.startAngle = -90
+        self.circleProgress.glowMode = self.glowMode
+        self.circleProgress.glowAmount = self.glowAmount
+        self.circleProgress.progressColors = self.progressColors
+        self.circleProgress.progressThickness = self.progressThickness
+        self.circleProgress.progressInsideFillColor = self.progressInsideFillColor
+        self.circleProgress.gradientRotateSpeed = self.gradientRotateSpeed
+        self.circleProgress.roundedCorners = self.roundedCorners
+        self.circleProgress.clockwise = self.clockwise
         
         let minVal = min(bounds.width, bounds.height)
         self.percentLbl.frame = CGRectMake(margins, margins, minVal - margins*2, minVal - margins*2)
@@ -280,8 +274,8 @@ public class KKCircularProgressView: UIView {
         percentLbl.textColor = labelColor
         percentLbl.font = UIFont.systemFontOfSize(percentLbl.frame.width/3.3)
         
-        self.addSubview(self.circleProgres)
-        self.circleProgres.addSubview(self.percentLbl)
+        self.addSubview(self.circleProgress)
+        self.circleProgress.addSubview(self.percentLbl)
 
     }
 }

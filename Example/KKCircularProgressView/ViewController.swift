@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         
         bigCircleView.trackColor = .orangeColor()
         bigCircleView.trackColor = UIColor.orangeColor()
-        bigCircleView.trackThinkest = 0.1
+        bigCircleView.trackThickness = 0.1
         bigCircleView.progressThickness = 0.1
         bigCircleView.glowMode = .NoGlow
         bigCircleView.labelColor = .orangeColor()
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         
         litcleCircleView.trackColor = .whiteColor()
         litcleCircleView.trackColor = UIColor.orangeColor()
-        litcleCircleView.trackThinkest = 0.1
+        litcleCircleView.trackThickness = 0.1
         litcleCircleView.progressThickness = 0.1
         litcleCircleView.glowMode = .NoGlow
         litcleCircleView.labelColor = .purpleColor()
