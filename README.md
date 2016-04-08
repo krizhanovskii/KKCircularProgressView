@@ -21,7 +21,7 @@ List of properties:
 ```
 public var startPercent: Int
 public var labelColor: UIColor
-public var trackThinkest: CGFloat
+public var trackThickness: CGFloat
 public var trackColor: UIColor
 public var progressThickness: CGFloat
 public var progressColors: [UIColor]
